@@ -90,8 +90,8 @@ linkedlist1=LinkedList()
 linkedlist2=LinkedList()
 
 
-t=int(input("Enter the number of linked list "))
-while(t):
+b=1
+while(b):
     b=int(input(f"\nEnter choice for  link list {t} \n 1 to insert \n 2 to traverse \n 0 to exit: \n "))
     if b==1:
         a=int(input("Enter a number: "))
@@ -99,7 +99,6 @@ while(t):
     elif b==2:
         linkedlist1.traverseList()
     
-    t=t-1
 
 
 b=1
